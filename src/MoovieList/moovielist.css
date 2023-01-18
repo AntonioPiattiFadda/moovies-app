@@ -1,0 +1,19 @@
+.movieCard__section{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 320px );
+    justify-content: center;
+ }
+ .moovie-list__title{
+    text-align: center;
+    margin: 1rem 0;
+ }
+
+
+@media screen and (min-width: 400px)  {
+    .movieCard__section{
+        justify-content: space-around;    
+      }
+      
+}
+
+  

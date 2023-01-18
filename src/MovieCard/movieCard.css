@@ -1,0 +1,33 @@
+.movieCard__container{
+    padding: 1.5rem;
+    height: 150px;
+    margin: 3rem .5rem;
+    background-color: var(--first-color);
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.notFound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movieCard__image{
+    width: 100px;
+	height: auto;
+	border-radius: 5px;
+	object-fit: cover;
+    transform: translateY(-35%);
+}
+.movieCard__info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1rem;
+}
+.movieCard__title{
+    margin-bottom: .25rem;
+}
+.movieCard__programTipe{
+    margin-top: .25rem;
+    color: var(--first-color-alt);
+}

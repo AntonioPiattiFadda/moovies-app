@@ -1,0 +1,13 @@
+.home__container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.home__title{
+    font-size: var(--h1-font-size);
+}
+.home__description{
+    width: 80%;
+    text-align: center;
+}
